@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+
+#nav-bar {
+    background-color: #f6f6f7;
+    height: 60px;
+    padding: 0 30px;
+    overflow: hidden;   
+}
+
+.site-name {
+    float: left;
+    color: rgb(7, 7, 7);
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#nav-bar ul {
+    float:right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;  
+}
+
+#nav-bar li {
+    float: left;
+}
+
+#nav-bar a {
+    display: block;
+    padding: 0 18px;
+    line-height: 60px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+#nav-bar a:hover {
+    background-color: #f0a500;
+    color: #1f3a5f;
+}
+
+
+.intro-box {
+    width: 900px;
+    margin: 30px auto 10px auto;   
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.main-title {
+    margin-top: 0;
+    color: #1f3a5f;
+    font-size: 32px;
+}
+
+.intro-box p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.section-title {
+    text-align: center;
+    color: #1f3a5f;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.cards-area {
+    width: 1260px;
+    margin: 0 auto;
+    overflow: hidden;  
+}
+
+.course-card {
+    float: left;
+    width: 280px;
+    margin: 15px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.course-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;  
+}
+
+.card-body {
+    height: 190px;   
+    padding: 10px 15px;
+}
+
+.course-card h3 {
+    margin: 8px 0;
+    font-size: 20px;
+    color: #1f3a5f;
+}
+
+.course-card p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 6px 0;
+}
+
+.card-info {
+    font-weight: bold;
+    color: #555555;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #1f3a5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.card-button:hover {
+    background-color: #f0a500;
+    color: #1f3a5f;
+}
+
+
+.course-card:hover {
+    border-color: #1f3a5f;
+}
+
+
+#single-card-area {
+    width: 310px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+
+#page-footer {
+    clear: both;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#page-footer p {
+    margin: 5px 0;
+}
+
